@@ -81,6 +81,10 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
+	body{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
 	.container {
 		width: 100%;
 	}
@@ -88,8 +92,17 @@ body {
 		margin: 0 auto;
 		display: block;
 		float: none;
-		width: 80%;
+		width: 95%;
 	}
+	.about_content{
+		font-size: 2em;
+	}
+	.btn{
+		width: 80%;
+		font-size: 3em;
+		font-weight: normal;
+	}
+
 }
 
 
