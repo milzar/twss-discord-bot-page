@@ -23,29 +23,6 @@ body {
 	width: 980px;
 	margin: 0 auto;
 	padding: 0;
-	position: relative;
-}
-
-.header_menu {
-	text-align: center;
-}
-
-.header_menu ul {
-	list-style-type: none;
-}
-
-.header_menu ul li {
-	display: inline-block;
-	margin: 10px;
-}
-
-.header_menu ul li a {
-	color: #fff;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-decoration: none;
-	font-size: 14px;
-	line-height: 20px;
 }
 
 .intro {
@@ -79,29 +56,6 @@ body {
 	text-decoration: none;
 }
 
-.about {
-	background: #23272A;
-	
-}
-
-.about_title h2{
-	font-size: 2em;
-	font-weight: bold;
-	padding: 20px 0;
-	text-align: center;
-	color: #fff;
-	margin-top: 10px;;
-}
-
-.about_title h2:before, .about_title h2:after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	background: #7289DA;
-	margin: 15px auto 10px auto;
-}
-
 .about_content .txt {
 	color: #fff;
 	margin-top: 4em;
@@ -112,35 +66,30 @@ body {
 	margin-top: 4em;
 }
 
-.func .func_title {
-	position: relative;
-	text-align: center;
-}
-
 .func .func_title h2 {
 	font-size: 2em;
 	font-weight: bold;
-	padding: 20px 0;
+	padding: 1em 0;
 	text-align: center;
 	color: #fff;
 }
 
-.func h2:before, .func h2:after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	background: #7289DA;
-	margin: 15px auto 15px auto;
-}
-
-.func img {
+.image-container img {
 	float: left;
+	width: 50%;
 	padding: 15px 30px;
 }
 
-.example-img{
-	width: 50%;
+@media only screen and (max-width: 1000px) {
+	.container {
+		width: 100%;
+	}
+	.image-container img {
+		margin: 0 auto;
+		display: block;
+		float: none;
+		width: 80%;
+	}
 }
 
 
