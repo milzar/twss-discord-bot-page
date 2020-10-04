@@ -15,19 +15,8 @@
 
 /*Estilos Gerais*/
 body {
-	height: 800px;
 	background: #2C2F33;
 	font-family: 'Montserrat', sans-serif;
-}
-
-/*CABEÇALHO*/
-.header {
-	position: fixed;
-	top: 0px;
-	width: 100%;
-	background: #23272A;
-	padding: 15px 0;
-	z-index: 10;
 }
 
 .container {
@@ -59,13 +48,10 @@ body {
 	line-height: 20px;
 }
 
-/*introdução*/
 .intro {
-	height: 400px;
 	background: #2C2F33;
-	margin-top: 70px;
+	margin-top: 7em;
 	text-align: center;
-	padding-top: 70px; 
 }
 
 .intro h1 {
@@ -74,7 +60,7 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 70px;
+	margin-bottom: 1em;
 }
 
 .btn {
@@ -85,21 +71,14 @@ body {
     background: #7289DA;
     border-radius: 5px;
     line-height: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: .1em;
-}
-
-.btn a {
-	color: #fff;
-	text-decoration: none;
-	font-weight: bold;
-	font-size: 21px;
+	text-transform: uppercase;
 	text-align: center;
-	padding: 30px 0px 0px 0px;
+    font-weight: bold;
+	letter-spacing: .1em;
+	color: white;
+	text-decoration: none;
 }
 
-/*Sobre*/
 .about {
 	background: #23272A;
 	
@@ -124,18 +103,13 @@ body {
 }
 
 .about_content .txt {
-	font-size: 17px;
 	color: #fff;
-	line-height: 27px;
-	margin-top: 20px !important;
-	padding: 30px 120px 78px;
+	margin-top: 4em;
 }
 
-/*Funções do bot*/
-
 .func {
-	height: 500px; /* testando o comprimento */
 	background: #2C2F33;
+	margin-top: 4em;
 }
 
 .func .func_title {
@@ -165,78 +139,8 @@ body {
 	padding: 15px 30px;
 }
 
-.func_subtitle h3 {
-	position: relative;
-	font-size: 1em;
-	font-weight: 500;
-	padding: 20px 0;
-	text-align: center;
-	color: #fff;
-}
-
-.func_subtitle p {
-	position: relative;
-	padding: 5px 30px;
-	color: #C9D8D2;
-}
-
-.left img {
-	float: right;
-}
-
-/* Mais Informações */
-
-.info {
-	height: 346px;
-	background: #2C2F33;
-	margin-top: 0px;
-	text-align: center;
-	padding-top: 70px; 
-}
-
-.info_title h2 {
-	font-size: 2em;
-	color: #fff;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 70px;
-}
-
-.info h2:before, .info h2:after {
-	content: "";
-	display: block;
-	width: 60px;
-	height: 3px;
-	background: #7289DA;
-	margin: 15px auto 15px auto;
-}
-
-.info .btn {
-	margin: 0px 30px;
-	padding: 20px 10px;
-}
-
-.info .btn a {
-	color: #fff;
-	font-size: 14px;
-	text-align: center;
-	padding: 30px 0px 0px 0px;
-}
-
 .example-img{
 	width: 50%;
-}
-
-
-.height-200{
-	max-height: 80px;
-}
-
-footer {
-	display: none;
-	height: 60px;
-	background: red;
 }
 
 
